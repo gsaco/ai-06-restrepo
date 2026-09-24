@@ -5,16 +5,16 @@
   "authors": "Daron Acemoglu and Pascual Restrepo",
   "source_version": "NBER Working Paper 22252, revised June 2017",
   "source_inventory_review_required": true,
-  "repository_visibility": "private_only",
-  "build_target": "lake build +AR18RaceManMachine",
+  "repository_visibility": "public_homework_private_source_cache",
+  "build_target": "python3 lean/check.py --library /path/to/AppliedModelingLib",
   "status": "partially formalized",
-  "main_caveat": "Lean checks two conditional supporting results: cost ranking around an assumed equal-cost threshold and the sign of the Proposition 3 wage decomposition. Equilibrium existence, the decomposition from model primitives, all other named propositions, and the source-to-Lean closeout audit remain unproved.",
-  "human_summary": "The generated paper folder records a partial formalization, with two Lean-checked proofs and an incomplete source-semantic audit.",
+  "main_caveat": "Expanded partial formalization of continuous tasks and local comparative statics. Differentiable equilibrium paths and reduced identities are inputs; primal productivity, complete equilibrium, dynamics, and full source-semantic closeout remain open. No complete named source proposition is claimed.",
+  "human_summary": "Expanded Lean proofs using AppliedModelingLib cover continuous task allocation, threshold existence, moving-integral and price-index differentiation, wage/rental response algebra, and endogenous labor-share and employment derivatives.",
   "human_summary_review": {
     "status": "draft",
     "note": "Set to human_approved only after a human has written or explicitly approved this summary; do not rewrite a human_approved summary without explicit human instruction."
   },
-  "review_entrypoint": "papers/AR18RaceManMachine/FINAL_VALIDATION_REPORT.md",
+  "review_entrypoint": "docs/LEAN_VERIFICATION.md",
   "human_review": {
     "reviewed_rows": 0,
     "total_rows": 2,
@@ -107,5 +107,20 @@
         ]
       }
     ]
+  },
+  "homework_extension": {
+    "status": "partially formalized",
+    "guide": "docs/LEAN_VERIFICATION.md",
+    "scope_and_cost": "docs/SCOPE_AND_COST.md",
+    "compiler_evidence": "verification/build.json",
+    "modules": [
+      "TaskFramework",
+      "RelativeDemand",
+      "PriceIndex",
+      "WageDecomposition",
+      "LocalResponses"
+    ],
+    "source_semantic_closeout": "not completed",
+    "legacy_review_surface_scope": "Original two examples only; not certification of expanded development"
   }
 }

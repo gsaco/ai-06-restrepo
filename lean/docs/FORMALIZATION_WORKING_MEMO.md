@@ -1,3 +1,5 @@
+> **Current development:** this file retains the earlier scaffold/workflow history. The expanded partial formalization is described in [the current guide](LEAN_VERIFICATION.md), with its [scope and cost assessment](SCOPE_AND_COST.md). Earlier two-proof counts and pending-work checklists below are historical, not the current compiler status. The formal source-semantic closeout remains unfinished.
+
 # Formalization Working Memo: The Race Between Machine and Man: Implications of Technology for Growth, Factor Shares and Employment
 
 This is a working lead log, not audit evidence and not a final validation

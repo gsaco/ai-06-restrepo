@@ -1,4 +1,4 @@
-import Mathlib
+import Mathlib.Data.Real.Basic
 
 /-!
 # Paper-Facing Theorems: The Race Between Machine and Man: Implications of Technology for Growth, Factor Shares and Employment
