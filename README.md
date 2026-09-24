@@ -21,7 +21,7 @@ The central question is whether new tasks can offset the displacement of workers
 | [Handwritten derivation](hand/derivation.png) | The original photograph of the wage decomposition worked out by hand. | The file is present and embedded in the presentation; the photo is no longer pending. |
 | [Lean statements](lean/PaperInterface.lean) and [proofs](lean/ProofInterface.lean) | The precise claims and their checked proofs. | Both current supporting proofs passed a fresh Lean check in the existing AppliedModelingLib environment. Their economic scope remains partial. |
 | [Numerical check](analysis/wage_cases.py) | Three illustrative wage-response calculations. | Running the script reproduces the negative, zero, and positive responses shown on slide 9. These are illustrative cases, not a calibration. |
-| [Prompts and recorded outputs](prompts.md) | The questions, answers, and earlier build output. | Provides the recorded context; the earlier fast-check result is historical, not a new semantic audit. |
+| [Conversation record](prompts.md) | Actual exchanges from this conversation, with the edited derivation question explicitly labeled. | Historical messages retain their original wording; omissions and excerpts are identified. Earlier build results remain documented in the Lean working memo. |
 | [Paper record at NBER](https://www.nber.org/papers/w22252) | The source paper's bibliographic record. | The June 2017 paper was checked using a local PDF. Automated direct access to NBER returned an access error, so live PDF availability is not certified here. |
 
 **Branch for this revised package:** [View branch-1 on GitHub](https://github.com/gsaco/ai-06-restrepo/tree/branch-1). This branch contains the updated presentation, handwritten photograph, README, banner, and badges. The main repository link opens the default branch. Relative links in this README follow whichever branch you are viewing.
@@ -85,7 +85,7 @@ These are presentation-content refinements; the README update does not claim to 
 README.md                  Project guide, links, results, and limitations
 presentation.pdf           Rendered presentation
 presentation.tex           Editable presentation source
-prompts.md                 Questions, answers, and recorded check output
+prompts.md                 Conversation excerpts and labeled edited question
 assets/                    Local README banner and badges
 analysis/
   wage_cases.py            Illustrative numerical sign check
