@@ -1,3 +1,5 @@
+> **Current development:** this file retains the earlier scaffold/workflow history. The expanded partial formalization is described in [the current guide](LEAN_VERIFICATION.md), with its [scope and cost assessment](SCOPE_AND_COST.md). Earlier two-proof counts and pending-work checklists below are historical, not the current compiler status. The formal source-semantic closeout remains unfinished.
+
 # Formalization Notes
 
 This file preserves the previous hand-written paper-folder README content.
