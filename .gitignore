@@ -1,0 +1,19 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.nav
+*.snm
+*.vrb
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# macOS
+.DS_Store
+
+# Third-party source; the reviewed NBER PDF stays outside public Git.
+w22252.pdf
+
+# Preserve the generated lean/.gitignore for paper-local sources and caches.
